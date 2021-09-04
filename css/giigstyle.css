@@ -2258,7 +2258,6 @@ blockquote {
     height: 200px;
     margin-bottom: 40px;
     background-color: rgba(66, 81, 95, 0.3);
-    background-image: url('../images/ESG.svg');
     background-position: 50% 50%;
     background-size: auto 80%;
     background-repeat: no-repeat;
@@ -2267,6 +2266,13 @@ blockquote {
     filter: saturate(100%);
     -o-object-fit: cover;
     object-fit: cover;
+}
+.teamcardimg.innovation{
+    background-image: url('../images/man.jpg');
+}
+
+.teamcardimg.profit{
+    background-image: url('../images/woman.jpg');
 }
 
 .teamcardimg.innovation {
@@ -6130,4 +6136,51 @@ blockquote {
         -ms-grid-row: 1;
         grid-row-start: 1;
     }
+}
+.hero{
+    position: relative;
+    background: url("../images/home-banner-bg.jpg") no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+}
+.hero-container{
+    position: absolute;
+    top: 25%;
+
+}
+.hero-overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    opacity: .1;
+    
+}
+.hero-title .row{
+    padding: 50px;
+}
+span.slash {
+  height: 100%;
+  color: #000;
+}
+.africa-fund{
+    font-size: 50px;
+    color: #fff;
+}
+.slash {
+    height:1px;
+    width: 2px;
+    background: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    transform: rotate(15deg)
+  }
+.tagline-container{
+    position: absolute;
+    top: 60%;
+
 }
